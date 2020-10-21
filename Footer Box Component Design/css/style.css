@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+}
+.box1{
+    background-color: #252531;
+    color: #DCDCDC;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    padding: 12px;
+    font-size: 16px;
+    box-shadow: -3px 4px 20px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box1>p{
+    padding: 3px;
+}
+.box1>p>span{
+    float: right;
+}
+.box2{
+    background-color: #252531;
+    color: #DCDCDC;
+    height: 200px;
+    width: 640px;
+    margin: 15px;
+    padding: 12px;
+    font-size: 16px;
+    box-shadow: -3px 4px 20px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box2>p{
+    padding: 3px;
+}
+.box2>p>span{
+    float: right;
+}
