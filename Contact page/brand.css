@@ -47,6 +47,7 @@ form{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 18px;
 	margin-bottom: 20px;
+	color: #FFFFFF;
 }
 
 
@@ -80,7 +81,6 @@ form .submit
 	
 	background: transparent;
 	border-bottom: 2px solid white;
-	color: #FFFFFF;
 	overflow: hidden;
 }
 
