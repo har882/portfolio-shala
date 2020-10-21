@@ -1,0 +1,104 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80px;
+  color: #F8F8F8;
+  background-color:#1E1E28;
+  border-radius: 5px;
+  height:100%;
+	box-shadow: -3px 4px 20px 1px black;
+}
+.fa {
+  font-size: 41px;
+  width: 40px;
+	height: 40px;
+	padding: 4px;
+	margin: 5px -6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #FEC02F;
+  color: #1E1E28;
+}
+.fa-instagram {
+  background: #1E1E28;
+	font-size: 47px;
+	color: #FEC02F;
+}
+.fa-linkedin {
+  background: #FEC02F;
+  color: #1E1E28;
+}
+.fa-github {
+	font-size: 47px;
+	background: #1E1E28;
+  color: #FEC02F;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 10px 23px;
+
+}
+
+.checked {
+  color: #FEC02F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+
+
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
