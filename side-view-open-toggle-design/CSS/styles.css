@@ -1,0 +1,69 @@
+
+.card {
+	position: relative;
+  	width: 300px; 
+  	background-color:#1E1E28;
+  	height:100vh;
+  	box-shadow: -3px 4px 20px 1px black;
+}
+.bottom1{
+	background-color: #252531;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height:80px;
+}
+.bottom{
+	margin-left: 15px;
+    margin-right: auto;
+	text-align: justify;
+	column-gap: 30px;
+	display:flex;
+  	flex-direction:row;
+  	height:80px;
+  	padding:15px; 
+}
+.bottom > div
+{
+  	flex:1 1 auto;
+  	
+  	text-align:center;
+  	margin:15px; 
+}
+
+.fa {
+  	width: 40px;
+	height: 40px;
+	padding: 5px;
+	margin: 0px -6px;
+  	text-align: center;
+  	text-decoration: none;
+  	border-radius: 50%;
+  	background-color: #252531;
+}
+
+.fa-facebook {
+	font-size: 40px;
+ 	background: #FEC02F;
+  	color: #252531;
+  	position: relative;
+}
+.fa-instagram {
+  	background: #252531;
+	font-size: 48px;
+	color: #FEC02F;
+	position: relative;
+}
+.fa-linkedin {
+  	background: #FEC02F;
+  	color: #252531; 
+  	position: relative;
+  	font-size: 40px;
+}
+.fa-github {
+	font-size: 50px;
+	background: #252531;
+  	color: #FEC02F;
+	position: relative;
+	height: 40px;
+}
