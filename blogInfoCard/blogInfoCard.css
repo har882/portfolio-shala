@@ -1,0 +1,35 @@
+div{
+	background-color: #252531;
+	height: 120px;
+	width: 980px;
+	font-size: 18px;
+	color: #DCDCDC;
+	padding: 10px 2px;
+	margin-top: 19% ;
+	border-radius: 8px;
+	margin-left: 17%;
+	text-align: center;
+
+}
+body{
+	font-family: Verdana,sans-serif;
+	background-color: black;
+}
+p{
+	display: inline;
+	
+
+}
+#left{
+	padding-right: 170px;
+	line-height: 4.2;
+}
+#center{
+	padding-right: 170px;
+	line-height: 6.2;
+	
+}
+#right{
+	
+	line-height: 4.2;
+}
