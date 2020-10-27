@@ -1,0 +1,30 @@
+.card {
+    box-shadow: -3px 4px 20px 1px;
+    width: 300px;
+    height: 350px;
+    background-color: #252531;
+}
+img {
+    width: 100%;
+}
+.container {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    padding-top: 0px;
+}
+h2 {
+    color: #DCDCDC;
+    opacity: 100%;
+    font-size: 20px;
+}
+p {
+    color: #DCDCDC;
+    opacity: 100%;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #FEC02F;
+    opacity: 100%;
+    font-size: 16px;
+}
