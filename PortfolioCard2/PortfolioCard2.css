@@ -1,0 +1,30 @@
+body{
+	font-family: Verdana,sans-serif;
+	background-color: black;
+}
+#center{
+	background-color: #252531;
+	width : 980px;
+	height : 180px;
+	font-size : 20px;
+	color: #DCDCDC;
+	padding: 10px 2px;
+	line-height: 2.5;
+	margin-left: 17%;
+	display: inline-block;
+	margin-top: 19%;
+}
+
+
+#left{
+	float: left;
+	padding-top: 1%;
+	padding-left: 5%;
+}
+#right{
+	
+	float: right;
+	padding-right: 5%;
+	vertical-align: middle;
+	padding-top: 1%;
+}
