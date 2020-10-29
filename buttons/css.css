@@ -1,0 +1,23 @@
+div{
+	margin-top: 20%;
+	margin-left: 33%;
+}
+
+button{
+	width:150px;
+	height:50px;
+	font-size:22px; 
+	font-color : #181822;
+	border-radius: 19px;
+	border-color: transparent;
+}
+#button1{
+	background-color: #F2453D;
+}
+
+#button2{
+	background-color: #FEC02F;
+}
+#button3{
+	background-color: #50AE55;
+}
