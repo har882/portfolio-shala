@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hotel</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <link href="css-circular-prog-bar.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  </head>
+<body>
+<div class="container">
+  <div class="forms-container">
+    <div class="signin-signup">
+      <h2>Review</h2>                                    <!-- Review -->
+      <form action="" class="form">                             <!--  box1 -->
+        <div class="input-field-long" style="height: 200px;">
+          <div class="icon-box"><i class="fa fa-envelope"></i></div>
+          <div style="margin-left: 10px;">
+            <input type="text" placeholder="Review">
+          </div>
+        </div>
+     </form>
+     <form action="" class="form">                                <!--  box2 -->
+        <div class="input-field-long">
+          <div class="icon-box"><i class="fa fa-envelope"></i></div>
+          <form action="" class="form">                       <!--  rating stars -->
+              <div id="rating" style="font-size:30px; color:gray; margin-left: 10px;">
+                <span id="star1" onmouseover="mystar(1)" onmouseout="myoutstar()" onclick="mystarclick(1)" style="cursor:pointer;">☆</span>
+                <span id="star2" onmouseover="mystar(2)" onmouseout="myoutstar()" onclick="mystarclick(2)" style="cursor:pointer;">☆</span>
+                <span id="star3" onmouseover="mystar(3)" onmouseout="myoutstar()" onclick="mystarclick(3)" style="cursor:pointer;">☆</span>
+                <span id="star4" onmouseover="mystar(4)" onmouseout="myoutstar()" onclick="mystarclick(4)" style="cursor:pointer;">☆</span>
+                <span id="star5" onmouseover="mystar(5)" onmouseout="myoutstar()" onclick="mystarclick(5)" style="cursor:pointer;">☆</span>
+              </div>
+          </form>
+        </div>
+     </form>
+      <div id="button">
+        <button id="button1">Reset</button>
+        <button id="button2">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
